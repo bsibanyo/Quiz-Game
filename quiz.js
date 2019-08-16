@@ -163,11 +163,11 @@ function scoreRender(){
     const scorePerCent = Math.round(100 * score/questions.length);
     
     // choose the image based on the scorePerCent
-    let img = (scorePerCent >= 80) ? "img/5.png" :
-              (scorePerCent >= 60) ? "img/4.jpg" :
-              (scorePerCent >= 40) ? "img/3.png" :
-              (scorePerCent >= 20) ? "img/2.jpg" :
-              "img/1.jpeg";
+    let img = (scorePerCent >= 80) ? "img/5.gif" :
+              (scorePerCent >= 60) ? "img/4.gif" :
+              (scorePerCent >= 40) ? "img/3.gif" :
+              (scorePerCent >= 20) ? "img/2.gif" :
+              "img/1.gif";
     
     scoreDiv.innerHTML = "<img src="+ img +">";
     scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
