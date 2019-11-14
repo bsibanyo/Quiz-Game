@@ -1,2 +1,2 @@
-QUIZ ME! Mzansi : 5 Questions every South African must be able to answer
-Created with: HTML, CSS and JAVASCRIPT
+Start![Start](/screenshots/1.png)
+![End](/screenshots/2.png)
